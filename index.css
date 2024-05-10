@@ -68,7 +68,7 @@
 .footer-part {
   list-style: none;
   position: absolute;
-  bottom: 0;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
