@@ -16,12 +16,21 @@
 .mobile-image img {
   width: 100%;
   height: 100vh;
-  /* object-fit: cover; */
+  object-fit: cover;
+}
+.mobile-logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.mobile-logo img {
+  width: 300px;
 }
 /* -------------langs-part------------ */
 .langs-part {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -74,7 +83,7 @@
 .footer-part {
   list-style: none;
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -102,7 +111,15 @@
   color: black;
   font-family: inherit;
 }
+@media screen and (min-width: 450px) {
+  .langs-part li {
+    width: 200px;
+  }
+}
 @media screen and (min-width: 992px) {
+  .mobile-logo {
+    display: none;
+  }
   .desktop-image img {
     display: block;
     width: 100%;
