@@ -181,7 +181,7 @@
 }
 @media screen and (max-width: 550px) {
   .flag-container {
-    min-height: 120vh;
+    min-height: 125vh;
   }
   .only-text img {
     width: 300px;
