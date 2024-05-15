@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  min-height: 100vh;
+}
 #book {
   width: 100%;
   max-width: 500px;
@@ -42,7 +45,7 @@ a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 100px;
+  bottom: 50px;
   z-index: 100;
   background-color: green;
   padding: 10px 20px;
@@ -66,5 +69,10 @@ a {
     height: auto;
     transition: transform 0.6s, opacity 0.6s ease;
     transform-origin: left;
+  }
+}
+@media screen and (min-width: 1024px) {
+  a {
+    bottom: 100px;
   }
 }
