@@ -1,2 +1,2 @@
-Bir şirkətin təqdimatı üçün qısa müddətdə (1 gün) hazırlandı və deploy olundu. 
+It was developed and deployed in a short period of time (1 day) for the presentation of a company.
 https://amofresh.az/
